@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF4AE2D41CBEA68E00387E66 /* SeMonitorController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4AE2D31CBEA68E00387E66 /* SeMonitorController.m */; };
 		AFA803311CBE3AB100EBE42A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803301CBE3AB100EBE42A /* main.m */; };
 		AFA803341CBE3AB600EBE42A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803331CBE3AB500EBE42A /* AppDelegate.m */; };
 		AFA803371CBE3AB700EBE42A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803361CBE3AB700EBE42A /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF4AE2D21CBEA68E00387E66 /* SeMonitorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeMonitorController.h; sourceTree = "<group>"; };
+		AF4AE2D31CBEA68E00387E66 /* SeMonitorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeMonitorController.m; sourceTree = "<group>"; };
 		AFA8032C1CBE3AA900EBE42A /* RunloopMonitorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunloopMonitorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA803301CBE3AB100EBE42A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFA803321CBE3AB200EBE42A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF4AE2D11CBEA64400387E66 /* SeMonitorController */ = {
+			isa = PBXGroup;
+			children = (
+				AF4AE2D21CBEA68E00387E66 /* SeMonitorController.h */,
+				AF4AE2D31CBEA68E00387E66 /* SeMonitorController.m */,
+			);
+			path = SeMonitorController;
+			sourceTree = "<group>";
+		};
 		AFA803231CBE3AA300EBE42A = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +116,7 @@
 		AFA8032E1CBE3AB000EBE42A /* RunloopMonitorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AF4AE2D11CBEA64400387E66 /* SeMonitorController */,
 				AFA803621CBE410400EBE42A /* MonitorController */,
 				AFA803321CBE3AB200EBE42A /* AppDelegate.h */,
 				AFA803331CBE3AB500EBE42A /* AppDelegate.m */,
@@ -289,6 +302,7 @@
 				AFA803371CBE3AB700EBE42A /* ViewController.m in Sources */,
 				AFA803341CBE3AB600EBE42A /* AppDelegate.m in Sources */,
 				AFA803651CBE412800EBE42A /* MonitorController.m in Sources */,
+				AF4AE2D41CBEA68E00387E66 /* SeMonitorController.m in Sources */,
 				AFA803311CBE3AB100EBE42A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
