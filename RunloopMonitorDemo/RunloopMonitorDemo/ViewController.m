@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MonitorController.h"
+#import "SeMonitorController.h"
 
 @interface ViewController ()
 
@@ -20,7 +21,7 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [[MonitorController sharedInstance] startMonitor];
+    [[SeMonitorController sharedInstance] startMonitor];
     
     UIButton *longTimeButton = [[UIButton alloc]initWithFrame:CGRectMake(100, 50, 100, 100)];
     longTimeButton.backgroundColor = [UIColor blackColor];
@@ -40,7 +41,7 @@
 }
 
 - (void)printLog{
-    [[MonitorController sharedInstance] printLogTrace];
+    [[SeMonitorController sharedInstance] printLogTrace];
 }
 
 - (void)didReceiveMemoryWarning {

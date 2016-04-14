@@ -10,4 +10,7 @@
 
 @interface SeMonitorController : NSObject
 + (instancetype) sharedInstance;
+- (void) startMonitor;
+- (void) endMonitor;
+- (void) printLogTrace;
 @end
